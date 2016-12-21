@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 public class AnimalProxyInvoker implements InvocationHandler {
-    private Cat cat;
+    private Animal cat;
 
-    public AnimalProxyInvoker(Cat cat) {
+    public AnimalProxyInvoker(Animal cat) {
 
         this.cat = cat;
     }
